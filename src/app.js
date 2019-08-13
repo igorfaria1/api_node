@@ -13,5 +13,6 @@ requireDir('./models');
 
 // Carrega as rotas
 app.use('/user', require('./routes/UserRoutes'));
+app.use('/login', require('./routes/LoginRoutes'));
 
 module.exports = app;
